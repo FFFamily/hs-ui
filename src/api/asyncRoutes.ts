@@ -320,6 +320,16 @@ const tabsRouter = {
   ]
 };
 
+export const asyncRoutes = {
+  success: true,
+  data: [
+    systemManagementRouter,
+    systemMonitorRouter,
+    permissionRouter
+    // frameRouter,
+    // tabsRouter
+  ]
+};
 export default defineFakeRoute([
   {
     url: "/get-async-routes",
